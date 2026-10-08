@@ -43,6 +43,13 @@ h1.abril-fatface-regular {
   gap: 3rem;
 }
 
+.lfs-photo img {
+  height: auto;
+  max-width: 100%;
+  width: 1000px;
+  display: block;
+}
+
 #body-section {
   display: flex;
   justify-content: center;
