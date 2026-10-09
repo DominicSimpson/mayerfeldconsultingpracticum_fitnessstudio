@@ -81,6 +81,10 @@ h1.abril-fatface-regular {
   text-decoration: none;
 }
 
+#nav-bar a:hover {
+  text-decoration: underline;
+}
+
 /* ---------- MAIN CONTENT ---------- */
 #body-section {
   width: 100%;
@@ -146,12 +150,23 @@ p {
 
 .service-card h2 {
   font-size: 1.25rem;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
 .card-link {
   margin-top: auto; /* pushes link to the bottom of the card */
   align-self: flex-start;
   font-weight: bold;
+  color: var(--nav-text);
+  text-decoration: none;
+}
+
+.card-link:hover {
+  text-decoration: underline;
 }
 
 /* ---------- FOOTER: Flexbox ---------- */
